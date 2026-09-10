@@ -8,17 +8,17 @@ This repository contains three distinct neural network models designed to analyz
 
 ## Model Overview
 
-### 1. Score Prediction Network
+### 1. Score Prediction Network (read_csv.py)
 * **Type**: Simple Feedforward Neural Network (MLP)
 * **Objective**: Predict a continuous continuous score based on selected features from the dataset.
 * **Core Components**: Fully connected layers (`nn.Linear`), ReLU activation functions, and MSE Loss.
 
-### 2. Risk Prediction Network
+### 2. Risk Prediction Network (read_csv_heart.py)
 * **Type**: Simple Feedforward Neural Network (MLP)
 * **Objective**: Predict risk levels or probabilities from selected input parameters.
 * **Core Components**: Fully connected layers with a Sigmoid or Softmax output layer, optimized using Cross-Entropy or Binary Cross-Entropy Loss.
 
-### 3. MNIST Image Recognition Network
+### 3. MNIST Image Recognition Network (CNN.py)
 * **Type**: Convolutional Neural Network (CNN)
 * **Objective**: Classify handwritten digits (0–9) using the built-in MNIST dataset from `torchvision`.
 * **Core Components**: Convolutional layers (`nn.Conv2d`), Max Pooling (`nn.MaxPool2d`), and fully connected layers for final classification.
