@@ -6,7 +6,7 @@ This repository contains three distinct neural network models designed to analyz
 * **PyTorch Framework**: Leverages modern deep learning workflows (DataLoaders, loss functions, and optimizers).
 * **Concepts and Applications**: Utilizes the basic concepts of deep learning (loss function, activation function, learning rate, normalization, etc.).
 
-## 🧠 Model Overview
+## Model Overview
 
 ### 1. Score Prediction Network
 * **Type**: Simple Feedforward Neural Network (MLP)
@@ -23,6 +23,6 @@ This repository contains three distinct neural network models designed to analyz
 * **Objective**: Classify handwritten digits (0–9) using the built-in MNIST dataset from `torchvision`.
 * **Core Components**: Convolutional layers (`nn.Conv2d`), Max Pooling (`nn.MaxPool2d`), and fully connected layers for final classification.
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 
 To run these models locally, ensure you have Python installed. Make sure the necessary packages are installed to conduct the program smoothly (torch, torchvision).
